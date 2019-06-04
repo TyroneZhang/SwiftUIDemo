@@ -15,6 +15,8 @@
 		52149A0C22A6437300B32032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52149A0A22A6437300B32032 /* LaunchScreen.storyboard */; };
 		52149A1722A6437300B32032 /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52149A1622A6437300B32032 /* SwiftUIDemoTests.swift */; };
 		52149A2222A6437300B32032 /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52149A2122A6437300B32032 /* SwiftUIDemoUITests.swift */; };
+		52149A3022A64AEA00B32032 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52149A2F22A64AEA00B32032 /* CircleImage.swift */; };
+		52149A3222A64E3B00B32032 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52149A3122A64E3B00B32032 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,9 @@
 		52149A1D22A6437300B32032 /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52149A2122A6437300B32032 /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		52149A2322A6437300B32032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52149A2F22A64AEA00B32032 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		52149A3122A64E3B00B32032 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		52149A3322A6551200B32032 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,7 @@
 		521499F322A6437000B32032 = {
 			isa = PBXGroup;
 			children = (
+				52149A3322A6551200B32032 /* README.md */,
 				521499FE22A6437000B32032 /* SwiftUIDemo */,
 				52149A1522A6437300B32032 /* SwiftUIDemoTests */,
 				52149A2022A6437300B32032 /* SwiftUIDemoUITests */,
@@ -102,6 +108,8 @@
 				521499FF22A6437000B32032 /* AppDelegate.swift */,
 				52149A0122A6437000B32032 /* SceneDelegate.swift */,
 				52149A0322A6437000B32032 /* ContentView.swift */,
+				52149A2F22A64AEA00B32032 /* CircleImage.swift */,
+				52149A3122A64E3B00B32032 /* MapView.swift */,
 				52149A0522A6437300B32032 /* Assets.xcassets */,
 				52149A0A22A6437300B32032 /* LaunchScreen.storyboard */,
 				52149A0D22A6437300B32032 /* Info.plist */,
@@ -268,6 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52149A0022A6437000B32032 /* AppDelegate.swift in Sources */,
+				52149A3022A64AEA00B32032 /* CircleImage.swift in Sources */,
+				52149A3222A64E3B00B32032 /* MapView.swift in Sources */,
 				52149A0222A6437000B32032 /* SceneDelegate.swift in Sources */,
 				52149A0422A6437000B32032 /* ContentView.swift in Sources */,
 			);
